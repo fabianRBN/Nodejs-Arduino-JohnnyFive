@@ -18,14 +18,17 @@ Este framework lo instalaremos en la maquina que va hacer de servidor pero antes
 
 ## Montar el servidor
 ![](https://hazelcast.org/wp-content/uploads/2016/04/nodejs-vert.png)
-Para este cometido vamos a utilizar NodeJS, uno de los frameworks que encontraras en nuestro ranking de JavaScript y que en más de una ocasión te hemos hablado de él. Esta plataforma de desarrollo Back-End trabaja con una arquitectura orientada a eventos y utiliza como lenguaje de desarrollo Javascript aprovechando el motor v8 creado por Google. Instalamos o actualizamos desde el siguiente enlace (Si utilizas UNIX puedes obtenerlo con el siguiente comando apt-get install nodejs) Una vez instalado seguimos con el resto de componentes.
+Para este cometido vamos a utilizar NodeJS, uno de los frameworks  de JavaScript. Esta plataforma de desarrollo Back-End trabaja con una arquitectura orientada a eventos y utiliza como lenguaje de desarrollo Javascript aprovechando el motor v8 creado por Google. Instalamos o actualizamos desde el siguiente enlace (Si utilizas UNIX puedes obtenerlo con el siguiente comando apt-get install nodejs) Una vez instalado seguimos con el resto de componentes.
+![https://nodejs.org/](https://nodejs.org/)
+
 ## Este paso es la configuracion que se realizo para inciar el proyecto
-Pare este caso se utilizara el Gestor de Paketes NPM:
+Pare este caso se utilizara el Gestor de Paketes NPM: Esta Heramienta ayudara  organizar los diferentes modulos que integremos en nuestra aplicacion. Se debe tener encuenta que al instalar Node.js ya se instala NPM, la instalacion que realizaremos es la cual es para tener npm en  nuestro proyecto.
 #### Source Code:
 
 ``` bash
 npm install
 ```
+
 Instalacion de los modulos: Johnny-Five , socket.io ,express,nodemon
 ``` bash
 npm install johnny-five
@@ -33,7 +36,7 @@ npm install socket.io
 npm install express
 npm install nodemon
 ```
-## Para los usuarios deberan unicamente mandar a  correr el Package.json que se encuentra lo cual facilitara la exportacion de modulos
+## Si se decea probar la aplicacion en algun otro ordenador, podemos unicamente arrancar nuestro Package.json el cual posee todos los modulos que se utilizaron esto ayudara a que se logre instalar la version con la que se a trabajado.
 
 ## Ejecutar la aplicacion:
 Desde  un shell iniciamos el serbidor con el comando 
