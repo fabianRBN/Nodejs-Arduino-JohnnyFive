@@ -30,43 +30,43 @@ board.on("ready", function() {
                   led.on();           
               });
               socket.on('off-led',function(data){
-                console.log("Cuaro apagado");
+                console.log("Cuarto apagado");
                 
                   
                   led.off();           
               });
               socket.on('on-led2',function(data){
-                console.log("Cuaro encendido");
+                console.log("Cuarto encendido");
                 
                  
                   led2.on();           
               });
               socket.on('off-led2',function(data){
-                console.log("Cuaro apagado");
+                console.log("Cuarto apagado");
                 
                   
                   led2.off();           
               });
               socket.on('on-led3',function(data){
-                console.log("Cuaro encendido");
+                console.log("Cuarto encendido");
                 
                  
                   led3.on();           
               });
               socket.on('off-led3',function(data){
-                console.log("Cuaro apagado");
+                console.log("Cuarto apagado");
                 
                   
                   led3.off();           
               });
               socket.on('on-led4',function(data){
-                console.log("Cuaro encendido");
+                console.log("Cuarto encendido");
                 
                  
                   led4.on();           
               });
               socket.on('off-led4',function(data){
-                console.log("Cuaro apagado");
+                console.log("Cuarto apagado");
                 
                   
                   led4.off();           
